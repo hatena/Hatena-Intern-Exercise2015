@@ -1,0 +1,17 @@
+table {
+    margin: 50px 0 0 40px;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px #C1DAD7;
+    color: #4F6B72;
+    padding: 6px 6px 6px 12px;
+}
+th {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+}

@@ -1,0 +1,5 @@
+host:127.0.0.1	user:frank	epoch:1372694390	req:GET /apache_pb.gif HTTP/1.0	status:200	size:2326	referer:http://www.hatena.ne.jp/
+host:127.0.0.1	user:john	epoch:1372794390	req:GET /apache_pb.gif HTTP/1.0	status:200	size:1234	referer:http://b.hatena.ne.jp/hotentry
+host:127.0.0.1	user:-	epoch:1372894390	req:GET /apache_pb.gif HTTP/1.0	status:503	size:9999	referer:http://www.example.com/start.html
+host:127.0.0.1	user:frank	epoch:1372694390	req:GET /apache_pb.gif HTTP/1.0	status:500	size:2326	referer:http://www.hatena.ne.jp/
+host:127.0.0.1	user:frank	epoch:1372794395	req:GET /notfound.gif HTTP/1.0	status:404	size:100	referer:-

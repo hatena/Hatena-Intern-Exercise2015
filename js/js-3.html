@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Hatena-Intern-Exercise : JavaScript</title>
+  <link rel="stylesheet" href="js-3.css" />
+</head>
+<body>
+  <section>
+    <h1>JavaScript 事前課題</h1>
+    <h2>課題 JS-3 : イベントリスナを使用する</h2>
+    <p>「表に出力する」 ボタンをクリックすると、テキストエリアに入力したログデータが表として表示されるようにしてください。 その際、課題 JS-1 と JS-2 で作成した関数を使用してください。</p>
+    <p>また、表 (table 要素) は table-container を id として持つ div 要素の子要素として作成するようにしてください。</p>
+    <div>
+      <textarea id="log-input" cols="64" rows="10">path:/&#x0009;epoch:123456
+path:/uname&#x0009;epoch:500000
+path:/help&#x0009;epoch:234222
+path:/&#x0009;epoch:94843
+</textarea>
+      <div><input value="表に出力する" type="button" id="submit-button" /></div>
+    </div>
+    <div id="table-container"></div>
+  </section>
+  <script src="main.js"></script>
+  <script src="js-3.js"></script>
+</body>
+</html>
